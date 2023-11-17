@@ -1,0 +1,23 @@
+{
+  "name": "renovate-config-recommended",
+  "version": "0.1.0",
+  "description": "Commonly recommended renovate config in ArkEdge",
+  "main": "index.js",
+  "scripts": {
+    "lint:fmt": "prettier --check .",
+    "lint:renovate": "renovate-config-validator default.json && renovate-config-validator *.json5",
+    "lint": "run-p lint:*",
+    "fix:fmt": "prettier -w .",
+    "fix": "run-p fix:*"
+  },
+  "keywords": [
+    "renovate"
+  ],
+  "author": "nakano-masaki@arkedgespace.com",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.0.3",
+    "renovate": "^36.93.4"
+  }
+}

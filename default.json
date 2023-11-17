@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "github>arkedge/renovate-config:earthfile.json5",
+    "github>arkedge/renovate-config:cargo-chef-docker.json5",
+    "github>arkedge/renovate-config:rust-toolchain.json5"
+  ]
+}

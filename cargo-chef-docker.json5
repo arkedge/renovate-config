@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  packageRules: [
+    {
+      groupName: "Rust",
+      groupSlug: "rust",
+      matchPackageNames: ["rust", "ghcr.io/sksat/cargo-chef-docker"],
+    },
+  ],
+}

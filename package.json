@@ -1,5 +1,5 @@
 {
-  "name": "renovate-config-recommended",
+  "name": "arkedge-renovate-config",
   "version": "0.1.0",
   "description": "Commonly recommended renovate config in ArkEdge",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "renovate"
   ],
   "author": "nakano-masaki@arkedgespace.com",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "npm-run-all": "^4.1.5",
     "prettier": "^3.0.3",

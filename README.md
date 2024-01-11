@@ -1,6 +1,6 @@
 # renovate-config
 
-[Sharable Renovate config presets](https://docs.renovatebot.com/config-presets/) used in [ArkEdge Space](https://arkedgespace.com)
+[Shareable Renovate config presets](https://docs.renovatebot.com/config-presets/) used in [ArkEdge Space](https://arkedgespace.com)
 
 ## Available presets
 

@@ -2,7 +2,7 @@
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   packageRules: [
     {
-      matchPackagePrefixes: ["arkedge/"],
+      matchPackagePrefixes: ["arkedge/", "sksat/"],
       matchCategories: ["github-actions"],
       matchUpdateTypes: ["minor", "patch"],
       automerge: true,

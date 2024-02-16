@@ -4,6 +4,7 @@
     "config:recommended",
     "github>arkedge/renovate-config:earthfile.json5",
     "github>arkedge/renovate-config:cargo-chef-docker.json5",
-    "github>arkedge/renovate-config:rust-toolchain.json5"
+    "github>arkedge/renovate-config:rust-toolchain.json5",
+    "github>arkedge/renovate-config:trust-self-hosted-action-versioning.json5"
   ]
 }

@@ -7,15 +7,18 @@ on:
 
 jobs:
   lint:
+    strategy:
+      matrix:
+        renovate_version: [37, 36]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8
-      - uses: actions/setup-node@v4.0.2
-        with:
-          node-version: 20
-          cache: pnpm
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm run lint
+
+      - name: Install linter
+        run: npm install -g prettier renovate@${{ matrix.renovate_version }}
+
+      - name: Lint renovate config
+        run: renovate-config-validator default.json && renovate-config-validator *.json5
+
+      - name: Check format
+        run: prettier --check .

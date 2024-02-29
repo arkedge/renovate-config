@@ -3,6 +3,7 @@
   "extends": [
     "config:recommended",
     ":timezone(Asia/Tokyo)",
+    ":enableVulnerabilityAlerts",
     "github>arkedge/renovate-config:earthfile.json5",
     "github>arkedge/renovate-config:cargo-chef-docker.json5",
     "github>arkedge/renovate-config:rust-toolchain.json5",

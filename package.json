@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "lint:fmt": "prettier --check .",
-    "lint:renovate": "renovate-config-validator default.json && renovate-config-validator *.json5",
     "lint": "run-p lint:*",
     "fix:fmt": "prettier -w .",
     "fix": "run-p fix:*"
@@ -17,7 +16,6 @@
   "license": "MIT",
   "devDependencies": {
     "npm-run-all2": "^6.0.0",
-    "prettier": "^3",
-    "renovate": "^37"
+    "prettier": "^3.2.5"
   }
 }

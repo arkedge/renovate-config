@@ -18,6 +18,6 @@
   "devDependencies": {
     "npm-run-all2": "^6.0.0",
     "prettier": "^3",
-    "renovate": "^37"
+    "renovate": "^38.0.0"
   }
 }

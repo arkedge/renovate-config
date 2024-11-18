@@ -16,7 +16,7 @@
   "author": "nakano-masaki@arkedgespace.com",
   "license": "MIT",
   "devDependencies": {
-    "npm-run-all2": "^6.0.0",
+    "npm-run-all2": "^7.0.0",
     "prettier": "^3",
     "renovate": "^39"
   }

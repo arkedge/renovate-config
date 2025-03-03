@@ -13,7 +13,7 @@ importers:
         version: 7.0.2
       prettier:
         specifier: ^3
-        version: 3.5.0
+        version: 3.5.3
       renovate:
         specifier: ^39
         version: 39.19.1(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0)
@@ -2222,8 +2222,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.5.0:
-    resolution: {integrity: sha512-quyMrVt6svPS7CjQ9gKb3GLEX/rl3BCL2oa/QkNcXv4YNVBC9olt3s+H7ukto06q7B1Qz46PbrKLO34PR6vXcA==}
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5921,7 +5921,7 @@ snapshots:
 
   prettier@3.3.3: {}
 
-  prettier@3.5.0: {}
+  prettier@3.5.3: {}
 
   proc-log@4.2.0:
     optional: true

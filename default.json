@@ -9,6 +9,7 @@
     "github>arkedge/renovate-config:cargo-chef-docker.json5",
     "github>arkedge/renovate-config:rust-toolchain.json5",
     "github>arkedge/renovate-config:trust-self-hosted-action-versioning.json5",
-    "github>arkedge/renovate-config:group-self-hosted-monorepo.json5"
+    "github>arkedge/renovate-config:group-self-hosted-monorepo.json5",
+    "github>arkedge/renovate-config:npm-minimumReleaseAge.json5"
   ]
 }

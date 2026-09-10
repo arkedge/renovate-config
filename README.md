@@ -11,7 +11,3 @@ A package rule to constrain Rust and [cargo-chef-docker](https://github.com/sksa
 ### `earthfile.json5`
 
 A custom manager to maintain dependencies in [`Earthfile`](https://earthly.dev) the same way as `Dockerfile`.
-
-### `rust-toolchain.json`
-
-A custom manager to maintain Rust version that described in `rust-toolchain`.
